@@ -1,7 +1,7 @@
 # Type-Event
 Projeto criado atrávez da pystackweek, semana onde aprendemos muito sobre Python e Django.
 
-````SOBRE: Projeto para agendamendamento de eventos, com possibilidade de impressão de certificado.```
+```SOBRE: Projeto para agendamendamento de eventos, com possibilidade de impressão de certificado.```
 
 TECNOLOGIAS: Python, Django, Html, Css... andamento
 
