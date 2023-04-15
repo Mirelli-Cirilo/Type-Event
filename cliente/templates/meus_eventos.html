@@ -1,0 +1,23 @@
+{% extends "main/main_eventos.html" %}
+{% load static %}
+
+
+{% block 'conteudo' %}
+
+<div class="container">
+    <table>
+        {% for evento in eventos %}
+        <tr class="{% cycle 'linha' 'linha2' %}">
+            <td width="10%"><a href="{% url 'listar_participantes' evento.id %}"><img width="100%" src="/media/{{evento.logo_evento}}"></a></td>
+            <td>{{evento.nome}}</td>
+            <td>{{evento.descricao}}</td>
+            <td>{{evento.data_inicio}}</td>
+            <td>{{evento.data_termino}}</td>
+            <br>
+        </tr>      
+        
+        {% endfor %}      
+    </table>
+</div>
+
+{% endblock %}
