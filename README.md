@@ -3,7 +3,7 @@ Projeto criado atrávez da pystackweek, semana onde aprendemos muito sobre Pytho
 
 ```SOBRE: Projeto para agendamendamento de eventos, com possibilidade de impressão de certificado.```
 
-TECNOLOGIAS: Python, Django, Html, Css... andamento
+TECNOLOGIAS: Python, Django, Html, Css.
 
 
 # PARA CLONAR O REPOSITÓRIO:
